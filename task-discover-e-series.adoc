@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-discover-e-series.html 
+keywords: e-series, cluster, discover, manage, discovering, discover e-series 
+summary: BlueXP puede descubrir los sistemas de almacenamiento E-Series en su entorno local. Añadir sistemas E-Series a BlueXP le permite obtener una vista completa de los datos en su multicloud híbrido. 
+---
+= Descubra los sistemas de almacenamiento E-Series
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+BlueXP puede descubrir los sistemas de almacenamiento E-Series en su entorno local. Añadir sistemas E-Series a BlueXP le permite obtener una vista completa de los datos en su multicloud híbrido.
+
+.Lo que necesitará
+* Un conector instalado en un proveedor de cloud o en las instalaciones, con conectividad de red al sistema de almacenamiento E-Series.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Obtenga más información sobre conectores y cómo crear uno"^]
+
+* El nombre de dominio o la dirección IP de la controladora del sistema de almacenamiento.
+* Credenciales de administrador para el sistema.
+
+
+.Pasos
+. En el menú de navegación, selecciona *almacenamiento > Canvas*.
+. En Canvas, haga clic en *Agregar entorno de trabajo* y seleccione *en las instalaciones*.
+. Seleccione *E-Series* y haga clic en *Siguiente*.
+. Si se le solicita, cree un conector.
++
+Consulte el enlace anterior para obtener más información.
+
+. En la página _E-Series Cluster Details_, introduzca el nombre de dominio o la dirección IP del controlador del sistema de almacenamiento, las credenciales de administración del sistema y, a continuación, haga clic en *Add*.
++
+image:screenshot-cluster-details.png["Una captura de pantalla que muestra la página Detalles del clúster de E-Series en la que se le pedirá que introduzca el nombre de dominio o la dirección IP, así como el nombre de usuario y la contraseña de administrador."]
+
+
+
+.Resultado
+BlueXP descubre el sistema de almacenamiento E-Series y lo añade como un entorno de trabajo en el lienzo.
+
+image:screenshot-canvas.png["Captura de pantalla que muestra un entorno de trabajo E-Series en el lienzo BlueXP."]

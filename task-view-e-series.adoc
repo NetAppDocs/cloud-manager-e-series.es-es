@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task-view-e-series.html 
+keywords: e-series, cluster, view, volumes, hosts, management ip, serial number, system id, capacity, allocated capacity 
+summary: Después de detectar los sistemas E-Series, puede ver detalles sobre la distribución de la capacidad, los volúmenes y los hosts. 
+---
+= Vea sus sistemas E-Series
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Después de detectar los sistemas E-Series, puede ver detalles sobre la distribución de la capacidad, los volúmenes y los hosts.
+
+.Pasos
+. En Canvas, haga doble clic en el nombre del entorno de trabajo E-Series que desee ver.
+. Seleccione una de las pestañas para ver más detalles sobre su sistema E-Series:
++
+** *Descripción general*: Una vista detallada de la distribución de capacidad del sistema (capacidad asignada, libre y sin asignar), el número de volúmenes, hosts, etc.
++
+image:screenshot-overview.png["Captura de pantalla de la pestaña Overview en un entorno de trabajo E-Series."]
+
+** *Volúmenes*: Detalles sobre los volúmenes del sistema, incluyendo asignación, nivel de RAID, capacidad asignada y más.
++
+image:screenshot-volumes.png["Captura de pantalla de la pestaña Volumes en un entorno de trabajo E-Series."]
+
+** *Hosts*: Detalles sobre los hosts que envían E/S a un volumen del sistema de almacenamiento.
++
+image:screenshot-hosts.png["Una captura de pantalla de la pestaña hosts en un entorno de trabajo E-Series."]
+
+
+
+
